@@ -1,0 +1,118 @@
+
+.fondo2{
+
+ 
+  background: #c0c0aa;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, hsla(184, 100%, 55%, 0.87), hsla(60, 15%, 71%, 0)), url(../img/woman110.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, hsla(327, 100%, 50%, 0.116), hsla(60, 15%, 71%, 0)), url(../img/woman112.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    height: 900px;
+    width: 100%;
+   
+    
+
+} 
+
+
+.waveEstilo{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+   
+   
+}
+
+.waveEstilo1{
+  height: 100%; width: 100%;
+}
+
+
+.waveEstilo2{
+  stroke: none; fill: rgb(253, 253, 253)
+}
+
+
+
+@media (max-width: 400px){
+  .fondo2{
+
+ 
+    background: #c0c0aa;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(184, 100%, 55%, 0.87), hsla(60, 15%, 71%, 0)), url(../img/woman110.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(327, 100%, 50%, 0.116), hsla(60, 15%, 71%, 0)), url(../img/woman112.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    position: relative;
+    /* background-attachment: fixed; */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 350px;
+     
+  } 
+
+
+  .waveEstilo{
+    position: absolute;
+    top: -2px;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+     
+     
+  }
+  
+  .waveEstilo1{
+    height: 100%; width: 100%;
+  }
+  
+  
+  .waveEstilo2{
+    stroke: none; fill: rgb(253, 253, 253)
+  }
+}
+
+
+
+
+@media screen and (min-width: 401px) and  (max-width: 800px){
+
+  .fondo2{
+
+ 
+    background: #c0c0aa;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(184, 100%, 55%, 0.87), hsla(60, 15%, 71%, 0)), url(../img/woman110.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(327, 100%, 50%, 0.116), hsla(60, 15%, 71%, 0)), url(../img/woman112.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    /* background-size: 100%; */
+    background-repeat: no-repeat;
+    height: 450px;
+     
+  } 
+
+
+  .waveEstilo{
+    position: absolute;
+    top: -2px;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+     
+     
+  }
+  
+  .waveEstilo1{
+    height: 100%; width: 100%;
+  }
+  
+  
+  .waveEstilo2{
+    stroke: none; fill: rgb(253, 253, 253)
+  }
+}
+
+

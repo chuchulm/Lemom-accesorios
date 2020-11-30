@@ -1,0 +1,313 @@
+
+
+
+.contenedor{
+
+    background: rgb(255, 255, 255);
+    padding: 60px 0;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    height: ;
+    
+    
+    
+    
+    
+
+}
+
+.titulo{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 50px;
+    align-self: center;
+    
+    
+
+}
+
+.img1{
+    height: 400px;
+}
+
+.imgMain{
+    margin-right: 80px;
+    border-radius: 5px;
+    
+
+}
+
+.imgMain1{
+ width: 900px;
+ height: 700px;
+ border-radius: 100px;
+
+}
+
+
+.animation1{
+    width: 700px;
+    animation: ilustrationAnimate ease-in 1s infinite alternate;
+}
+
+@keyframes ilustrationAnimate{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.04);
+    }
+}
+
+
+
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+    
+    }
+    
+    
+    
+    .sobre-nosotros.contenido-textos{
+        width: 48%;
+    }
+    
+    .contenido-texto h3{
+        font-weight: 400;
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: rgb(7, 7, 7);
+    position: relative;
+    right: 30px;
+    margin-top: 120px;
+    
+    }
+    
+   
+    
+    .contenido-textos p{
+    
+    font-weight: 400;
+    font-size: 25px;
+    text-align: justify;
+    color: rgb(8, 8, 8);
+    position: relative;
+    right: 30px;
+    margin-top: 20px;
+
+}
+
+
+
+@media screen and (max-width: 400px){
+
+
+
+
+    .contenedor{
+
+        background: rgb(255, 255, 255);
+        padding: 60px 0;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        height: ;
+        flex-direction: column;
+        
+        
+        
+        
+    
+    }
+    
+    .titulo{
+        color: rgb(0, 0, 0);
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 60px;
+        font-size: 50px;
+        align-self: center;
+        
+        
+    
+    }
+    
+    .imgMain{
+        margin: auto;
+        
+        
+    
+    }
+    
+    .imgMain1{
+     width: 200px;
+     height: 150px;
+     margin: auto;
+     display: flex;
+     margin-bottom: 30px;
+    
+    }
+    
+    
+    .animation1{
+        width: 700px;
+        animation: ilustrationAnimate ease-in 1s infinite alternate;
+    }
+    
+    @keyframes ilustrationAnimate{
+        0%{
+            transform: scale(1);
+        }
+        100%{
+            transform: scale(1.04);
+        }
+    }
+    
+    
+    
+    .contenedor-sobre-nosotros{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: auto;
+        }
+        
+        
+        
+        .sobre-nosotros.contenido-textos{
+            width: 48%;
+        }
+        
+        .contenido-texto h3{
+           font-weight: 400;
+           font-size: 20px;
+           color: rgb(8, 8, 8);
+           margin: auto;
+           text-align: center;
+           margin-left: 40px;
+    
+        
+        
+        }
+        
+       
+        
+        .contenido-textos p{
+        
+        font-weight: 400;
+        font-size: 16px;
+        text-align: justify;
+        color: rgb(8, 8, 8);
+       margin-left: 50px;
+        
+       
+    
+    }
+    
+
+
+
+}
+
+
+@media screen and (min-width: 401px) and  (max-width: 800px){
+
+    .contenedor{
+
+        background: rgb(255, 255, 255);
+        padding: 60px 0;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+        
+        
+        
+    
+    }
+    
+    .titulo{
+        color: rgb(0, 0, 0);
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 60px;
+        font-size: 50px;
+      
+        
+        
+    
+    }
+    
+    .imgMain{
+        margin: auto;
+        
+        
+    
+    }
+    
+    .imgMain1{
+     width: 370px;
+     height: 250px;
+     padding-right: 0px;
+     margin-left: -20px;
+   
+     
+     
+    
+    
+    }
+    
+    
+    
+    
+    
+    .contenedor-sobre-nosotros{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: auto;
+        }
+        
+        
+        
+        .sobre-nosotros.contenido-textos{
+            width: 50%;
+        }
+        
+        .contenido-texto h3{
+           font-weight: 400;
+           font-size: 20px;
+           color: rgb(8, 8, 8);
+           margin: auto;
+           text-align: center;
+        
+    
+        
+        
+        }
+        
+       
+        
+        .contenido-textos p{
+        
+        font-weight: 400;
+        font-size: 15px;
+        text-align: justify;
+        color: rgb(8, 8, 8);
+        margin-left: 35px;
+     
+        
+        
+       
+    
+    }
+
+}
+
+
+    
